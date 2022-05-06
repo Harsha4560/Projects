@@ -14,11 +14,11 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmetizer = WordNetLemmatizer()
-intents = json.load(open('C:\\Users\\Harsha\\Desktop\\python ml\\ChatBot\\intents.json'))
+intents = json.load(open('intents.json'))
 
-words = pickle.load(open('C:\\Users\\Harsha\\Desktop\\python ml\\ChatBot\\words.pk1', 'rb'))
-classes = pickle.load(open('C:\\Users\\Harsha\\Desktop\\python ml\\ChatBot\\classes.pk1', 'rb'))
-model = load_model('C:\\Users\\Harsha\\Desktop\\python ml\\ChatBot\\chatbotmodel.h5')
+words = pickle.load(open('words.pk1', 'rb'))
+classes = pickle.load(open('classes.pk1', 'rb'))
+model = load_model('chatbotmodel.h5')
 
 
 def clean_up_sentence(sentence):
