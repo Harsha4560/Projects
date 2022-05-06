@@ -1,0 +1,37 @@
+{"intents": [
+    {"tag": "greetings", 
+    "patterns": ["hello", "hey", "hi", "greetings", "Whats up", "how are you"],
+    "responses": ["Hello", "Hey!", "Hi"] 
+    },
+
+    {
+        "tag": "bye",
+        "patterns": ["bye ra", "Bye", "see you later", "see ya"],
+        "responses":["Bye", "Will miss you :(", "Good bye"]
+    },
+
+    {
+        "tag": "age",
+        "patterns": ["How old", "age?", "How old are you"],
+        "responses": ["I am 20 years"]
+    },
+
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "name?", "Who are you"],
+        "responses": ["My name is Harsha", "You can call me Harsha"]
+    },
+
+    {
+        "tag": "what are you doing",
+        "patterns": ["Em chestunnav", "what are you doing", "Em chestunnav ra"],
+        "responses": ["Em ledu", "Nothing"]
+    },
+
+    {
+        "tag": "Had food",
+        "patterns": ["tinnava", "Had food?"],
+        "responses": ["yeah i had food"]
+    }
+
+]}
